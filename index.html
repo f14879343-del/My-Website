@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>موقعي الاحترافي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            padding-top: 90px; /* مسافة عشان الشريط العلوي الثابت */
+        }
+
+        /* الشريط العلوي والشعار */
+        .navbar {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* تنسيق الأقسام والكروت */
+        h2.main-title {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            height: 50px;
+        }
+        .card button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+        .about-contact-section {
+            margin-top: 50px;
+            padding: 40px;
+            background-color: #ffffff;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط العلوي واللوجو -->
+    <nav class="navbar">
+        <!-- اكتب اسم اللوجو بتاعك هنا -->
+        <a href="#" class="logo">موقعي الاحترافي</a>
+    </nav>
+
+    <!-- عنوان الخدمات -->
+    <h2 class="main-title">الخدمات التي نقدمها لعملائنا</h2>
+
+    <!-- كروت الخدمات -->
+    <div class="cards-container">
+
+        <!-- تصميم واجهات -->
+        <div class="card">
+            <h3>تصميم واجهات</h3>
+            <p>نقدم تصميم واجهات مواقع احترافية وجذابة تتوافق مع جميع الشاشات والموبايل.</p>
+            <a href="https://wa.me/201012282957?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تصميم%20الواجهات" target="_blank" style="text-decoration: none;">
+                <button>تفاصيل الخدمة</button>
+            </a>
+        </div>
+
+        <!-- تطوير المتاجر -->
+        <div class="card">
+            <h3>تطوير المتاجر</h3>
+            <p>بناء متاجر إلكترونية كاملة لعرض وبيع منتجاتك مع لوحة تحكم سهلة الاستخدام.</p>
+            <a href="https://wa.me/201012282957?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تطوير%20المتاجر%20الالكترونية" target="_blank" style="text-decoration: none;">
+                <button>تفاصيل الخدمة</button>
+            </a>
+        </div>
+
+        <!-- استضافة المواقع -->
+        <div class="card">
+            <h3>استضافة المواقع</h3>
+            <p>رفع موقعك على أسرع السيرفرات العالمية لضمان سرعة تصفح فائقة لعملائك.</p>
+            <a href="https://wa.me/201012282957?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20استضافة%20المواقع" target="_blank" style="text-decoration: none;">
+                <button>تفاصيل الخدمة</button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- قسم من نحن وتواصل معنا -->
+    <section class="about-contact-section">
+        <div style="margin-bottom: 30px;">
+            <h2 style="color: #333; margin-bottom: 10px;">من نحن</h2>
+            <p style="color: #666; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+                نحن فريق متخصص في تقديم أحدث الحلول الرقمية، وتصميم الواجهات، وتطوير المتاجر الإلكترونية باحترافية عالية لضمان نجاح عملك وتسهيل تجربة عملائك.
+            </p>
+        </div>
+        <div>
+            <h2 style="color: #333; margin-bottom: 10px;">تواصل معنا</h2>
+            <p style="color: #666; margin-bottom: 15px;">يسعدنا تواصلكم معنا عبر البريد الإلكتروني أو الهاتف:</p>
+            <p style="color: #333; font-weight: bold;">البريد الإلكتروني: info@example.com</p>
+            <p style="color: #333; font-weight: bold;">الهاتف: +20 10 12282957</p>
+        </div>
+    </section>
+
+</body>
+</html>
